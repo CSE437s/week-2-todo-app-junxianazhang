@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do App</h1>
+        <div class="items">
+            <div>
+                <button onclick="deleteTasks()" class="deleteAllBtn">Delete All Tasks</button>
+            </div>
+            <div>
+                <input type="text" id="taskInput" placeholder="Type a task to add">
+                <button onclick="addTask()" class="addBtn">Add Task</button>
+            </div>
+            <div>
+                <ul id="taskList"></ul>
+            </div>
+        </div>
+        
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
